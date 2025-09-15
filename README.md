@@ -6,7 +6,7 @@ Este repositorio contiene la maqueta estática para el sitio web corporativo de 
 
 Puedes ver la maqueta desplegada en el siguiente enlace:
 
-[**Ver LuxTime en vivo**](https://paulasebas.netlify.app/) 
+[**Ver LuxTime en vivo**](https://examenhtmlcsspaula.netlify.app/) 
 
 ## Contexto del Proyecto
 
@@ -111,6 +111,7 @@ luxtime/
 │   ├── contacto.css
 │   ├── detalle.css
 │   ├── historia.css
+│   ├── testimonios.css
 │   └── styles.css         # Estilos de la página de inicio
 ├── images/                # Imágenes de productos, banners y recursos
 ├── pages/
@@ -122,6 +123,7 @@ luxtime/
 │   ├── detalle-d003.html
 │   ├── detalle-e001.html
 │   ├── detalle-a004.html
+│   ├── testimonios.html
 │   └── historia.html
 ├── videos/
 │   └── video.mp4
@@ -151,5 +153,4 @@ Dado que es un proyecto estático, no se requiere ninguna instalación especial.
 
 Este proyecto fue desarrollado como parte de un desafío de maquetación web.
 
-- **Nombre:** Paula Andrea Viviescas Jaimes / Sebastian Andrea Mora Valenzuela
-- **GitHub:** PaulaV09 / Smora1110
+- **GitHub:** PaulaV09 
