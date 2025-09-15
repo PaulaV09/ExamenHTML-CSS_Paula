@@ -17,20 +17,89 @@
         <!-- Logo de la marca -->
         <a class="logo" href="#">LuxTime</a>
 
-        <!-- Botón hamburguesa (solo visible en móviles) -->
-        <button class="hamburguesa" id="btnHamburguesa" aria-label="Abrir menú">
-          ☰
-        </button>
-
         <!-- Menú de navegación -->
         <nav class="menu">
-          <a href="#">Inicio</a>
+          <a href="../index.html">Inicio</a>
           <a href="/pages/catalogo.html">Catálogo</a>
           <a href="/pages/historia.html">Historia</a>
           <a href="/pages/contacto.html">Contacto</a>
+          <a href="/pages/testimonios.html">Testimonios Examen</a>
         </nav>
       </div>
     </header>
+    <main>
+      <section class="testimonios">
+        <h2>Lo que dicen de nosotros</h2>
+
+        <!-- Controles invisibles -->
+        <input type="radio" name="slide" id="s1" checked />
+        <input type="radio" name="slide" id="s2" />
+
+        <!-- Contenedor -->
+        <div class="carrusel-css">
+          <div class="grupo">
+            <a href="#">
+              <article>
+                <img src="../images/retrato-01.png" alt="Relacionado 1" />
+                <p class="nombre">María Ramirez</p>
+                <p>"Un reloj que combina arte y exactitud. Lo recomiendo."</p>
+              </article>
+            </a>
+            <a href="#">
+              <article>
+                <img src="../images/retrato-02.png" alt="Relacionado 1" />
+                <p class="nombre">Andrés Pabon</p>
+                <p>"Servicio y detalles que impresionan. Gran pieza."</p>
+              </article>
+            </a>
+            <a href="#">
+              <article>
+                <img src="../images/retrato-03.png" alt="Relacionado 1" />
+                <p class="nombre">Laura Garcia</p>
+                <p>"Calidad en cada componente. Empresa con visión."</p>
+              </article>
+            </a>
+          </div>
+          <div class="grupo">
+            <a href="#">
+              <article>
+                <img src="../images/testimonio-03.jpg" alt="Relacionado 1" />
+                <p class="nombre">Luis Mora</p>
+                <p>
+                  "Relojes clasicos con diseños de lujo. Recomendada la empresa"
+                </p>
+              </article>
+            </a>
+            <a href="#">
+              <article>
+                <img src="../images/testimonio-04.jpeg" alt="Relacionado 1" />
+                <p class="nombre">Laura Rodriguez</p>
+                <p>
+                  "Empresa que le da importancia al servicio al cliente. Buena
+                  experiencia."
+                </p>
+              </article>
+            </a>
+            <a href="#">
+              <article>
+                <img src="../images/testimonio-05.jpg" alt="Relacionado 1" />
+                <p class="nombre">Sergio Gonzalez</p>
+                <p>
+                  "Grandes diseños, clasicos pero sofisticados. Buena compra.
+                  Recomendados."
+                </p>
+              </article>
+            </a>
+          </div>
+        </div>
+
+        <!-- Botones como labels -->
+        <div class="controles">
+          <label for="s1" class="prev">‹</label>
+          <label for="s2" class="next">›</label>
+        </div>
+      </section>
+    </main>
     <footer class="footer">
       <div class="footer-container">
         <p>&copy; 2025 LuxTime — Todos los derechos reservados</p>
