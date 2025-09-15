@@ -66,7 +66,7 @@ main {
 
 .carrusel-css {
   display: flex;
-  width: 200%; 
+  width: 200%;
   transition: transform 0.5s ease;
   justify-content: space-around;
 }
@@ -105,14 +105,14 @@ main {
 }
 
 .grupo p {
-    font-size: 1rem;
-    line-height: 1.4;
+  font-size: 1rem;
+  line-height: 1.4;
 }
-.grupo .nombre{
-    font-size: 1.2rem;
-    font-weight: 800;
-    margin-top: 0.5rem;
-    margin-bottom: 0.4rem;
+.grupo .nombre {
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin-top: 0.5rem;
+  margin-bottom: 0.4rem;
 }
 
 #s1:checked ~ .carrusel-css {
@@ -154,4 +154,78 @@ main {
 .footer-container a {
   color: #fff;
   text-decoration: none;
+}
+@media (max-width: 600px) {
+  .menu {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+    padding: 12px;
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 99;
+  }
+  .menu a {
+    margin: 0;
+    padding: 8px;
+    font-weight: 500;
+    color: #111;
+    display: block;
+  }
+  .menu.activo {
+    display: flex;
+  }
+  .container {
+    padding: 0 12px;
+  }
+  .footer-container {
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+  }
+}
+/* ------------------- TABLET (max-width: 768px) ------------------- */
+@media (max-width: 768px) {
+  .menu {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+    padding: 12px;
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 99;
+  }
+
+  .menu a {
+    margin: 0;
+    padding: 8px;
+    font-weight: 500;
+    color: #111;
+    display: block;
+  }
+
+  .menu.activo {
+    display: flex;
+  }
+}
+
+/* ------------------- DESKTOP MEDIO (max-width: 1024px) ------------------- */
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .testimonios {
+    width: 95%;
+  }
 }
